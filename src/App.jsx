@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://mini-crm-backend-b8p6.onrender.com/api'
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
